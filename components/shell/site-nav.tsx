@@ -51,7 +51,12 @@ export function SiteNav() {
 
         <div className="ml-auto flex items-center gap-2 lg:ml-0">
           <span className="hidden items-center gap-1.5 rounded-lg border border-line bg-panel px-2.5 py-1 text-xs font-semibold text-ink md:inline-flex">
-            <span aria-hidden="true">🇨🇴</span> COP
+            <span
+              aria-hidden="true"
+              className="inline-block h-2.5 w-3.5 overflow-hidden rounded-[2px]"
+              style={{ background: 'linear-gradient(#fcd116 0 50%, #003893 50% 75%, #ce1126 75%)' }}
+            />{' '}
+            COP
           </span>
           <span className="hidden items-center gap-2 rounded-lg border border-ok/25 bg-ok/10 px-2.5 py-1 text-xs font-semibold text-ok sm:inline-flex">
             <LiveDot />
